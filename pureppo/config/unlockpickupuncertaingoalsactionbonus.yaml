@@ -1,0 +1,10 @@
+env_id: 'unlockpickupuncertaingoalsactionbonus-v0'
+config_path: 'pureppo/config'
+algorithm_type: PPO  # SoftQ, PPO
+total_timesteps: 100000
+env_kwargs:
+  goal: 0
+vec_env_kwargs: 'empty_dict'
+is_atari: False
+play_model: True
+save_model: True

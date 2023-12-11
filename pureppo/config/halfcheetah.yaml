@@ -1,0 +1,10 @@
+env_id: 'HalfCheetah-v3'
+config_path: 'pureppo/config'
+algorithm_type: PPO  # SoftQ, PPO
+total_timesteps: 10000
+env_kwargs: 'empty_dict'
+vec_env_kwargs: 'empty_dict'
+is_atari: False
+play_model: False
+save_model: True
+wandb: True

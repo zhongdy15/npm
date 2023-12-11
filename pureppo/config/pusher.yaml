@@ -1,0 +1,9 @@
+env_id: 'Pusher-v2'
+config_path: 'pureppo/config'
+algorithm_type: PPO  # SoftQ, PPO
+total_timesteps: 10000000
+env_kwargs: 'empty_dict'
+vec_env_kwargs: 'empty_dict'
+is_atari: False
+play_model: True
+save_model: True
